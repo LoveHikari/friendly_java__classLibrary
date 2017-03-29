@@ -1,4 +1,4 @@
-package common;
+package com.gootrip.util;
 
 import java.io.*;
 
