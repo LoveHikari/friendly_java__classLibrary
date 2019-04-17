@@ -108,12 +108,12 @@ public class DbUtil {
      * @param rs
      *      ResultSet 原始数据集
      * @return List<Map<String,Object>>
-     * @throws java.sql.SQLException
+     * @throws SQLException
      * @author 宋立君
      * @date 2014年07月03日
      */
     private List<Map<String, Object>> resultSetToList(ResultSet rs)
-            throws java.sql.SQLException {
+            throws SQLException {
         if (rs == null)
             return Collections.EMPTY_LIST;
 
